@@ -140,6 +140,8 @@ public class DirectorioTelefonico {
 
 ---
 
+![alt text](image.png)
+
 ### Consideraciones sobre `hashCode()` y `equals()`
 
 Un `TreeMap` **no usa** `hashCode()` ni `equals()` para determinar la unicidad de claves. En su lugar, usa el `compareTo()` de `Comparable` o el `Comparator` definido.
